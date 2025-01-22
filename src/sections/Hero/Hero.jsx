@@ -10,11 +10,16 @@ import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import instagramLight from '../../assets/instagram-light.svg';
 import instagramDark from '../../assets/instagram-dark.svg';
-import CV from '../../assets/cv.pdf';
+//import CV from '../../assets/cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
+
+  const scrollToAbout = () => {
+    const element = document.getElementById('about');
+    element.scrollIntoView({behavior: 'smooth'});
+  }
 
   const themeIcon = theme === 'light' ? sun : moon;
   const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
@@ -61,9 +66,16 @@ function Hero() {
         <p className={styles.description}>
           Si, el mismo.
         </p>
-        <a href={CV} download>
+        <a onClick={scrollToAbout}>
           <button className="hover">Conóceme</button>
         </a>
+        {
+          /**
+           * <a href={CV} download>
+              <button className="hover">Conóceme</button>
+            </a>
+           */
+        }
       </div>
     </section>
   );

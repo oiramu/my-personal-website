@@ -5,7 +5,10 @@
   gap: 32px;
 
   .hero {
-    max-width: 480px;
+    max-width: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   span {
@@ -28,28 +31,8 @@
   }
 }
 
-.colorModeContainer {
-  position: relative;
-}
-
-.colorMode {
-  position: absolute;
-  right: 0;
-  width: 25px;
-}
-
-.colorMode:hover {
-  cursor: pointer;
-}
-
 .description {
-  max-width: 50ch;
-}
-
-.info {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  max-width: 37ch;
 }
 
 @media (width >= 800px) {
@@ -62,6 +45,9 @@
       max-width: 480px;
       width: 480px;
     }
+  }
+  .description {
+    max-width: 49ch;
   }
 }
 
