@@ -48,7 +48,7 @@ function Hero() {
           <br />
           Rodríguez
         </h1>
-        <h2>Founder & CEO</h2>
+        <h2>CEO & Founder of Konfii</h2>
         <span>
             <a href="https://instagram.com/oiramu_" target="_blank">
             <img src={instagramIcon} alt="Twitter icon" />
@@ -64,7 +64,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Si, el mismo.
+        Apasionado por la innovación, combino estrategia y creatividad para impulsar proyectos transformadores.
         </p>
         <a onClick={scrollToAbout}>
           <button className="hover">Conóceme</button>
