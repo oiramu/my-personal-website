@@ -48,7 +48,7 @@ function Hero() {
           <br />
           Rodríguez
         </h1>
-        <h2>CEO & Founder of Konfii</h2>
+        <h2>CEO & Founder of <a href="https://konfii.com" target="_blank">Konfii</a></h2>
         <span>
             <a href="https://instagram.com/oiramu_" target="_blank">
             <img src={instagramIcon} alt="Twitter icon" />
