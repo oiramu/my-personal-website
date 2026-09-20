@@ -17,15 +17,20 @@ function AboutMe() {
           del talento. Ej. Animación, Música, Producción Audiovisual y por supuesto
           Programación.
           <br /><br />
-          A los 15 años desarrollé un "Doom-Clone" en Java con OpenGL, lo cual llamó la
-          atención de mis compañeros, luego amigos y socios: Daniel, Ever, Brayan y Brian.
-          Con quienes años más tarde crearíamos <a href="https://konfii.com">Konfii</a>, 
-          una plataforma que, a través de la tecnología, empodera el talento y conecta necesidades.
-          Nuestra misión ha sido transformar la manera en que las personas trabajan y colaboran, 
-          creando un impacto positivo en nuestra sociedad.
+          A los 15 años desarrollé Cheetah Engine, un "Doom-Clone" en Java con OpenGL,
+          lo cual llamó la atención de mis compañeros, luego amigos y socios: Daniel,
+          Ever, Brayan y Brian. Con quienes años más tarde creamos Konfii, una
+          plataforma que, a través de la tecnología, empoderó el talento y conectó
+          necesidades en Barranquilla.
           <br /><br />
-          En 2023, nuestro trabajo fue reconocido por <b>Nuestra Barranquilla</b> y <b>MacondoLab</b>, 
+          En 2023, nuestro trabajo fue reconocido por <b>Nuestra Barranquilla</b> y <b>MacondoLab</b>,
           quienes nos premiaron como agentes de cambio por nuestro impacto positivo en la comunidad.
+          Konfii ya cerró, pero fue la escuela donde aprendí a sostener producto, capital
+          y ejecución técnica al mismo tiempo.
+          <br /><br />
+          Hoy sigo construyendo: <b>Gasolinapp</b> es mi proyecto más reciente, una app
+          para consultar y reportar precios de gasolina en Colombia, de punta a punta —
+          frontend, backend e infraestructura.
         </p>
       </div>
       <div className={styles.colorModeContainer}>

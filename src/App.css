@@ -2,7 +2,7 @@
   --background-color: #fff;
   --btn-color: #0987f2;
   --btn-text-color: #fff;
-  --project-card-bg: #ffffff00;
+  --project-card-bg: #f4f4f4;
   --text-color: #222;
   --form-text-color: #555;
   --footer-text-color: #888;
@@ -13,7 +13,7 @@
   --background-color: #222;
   --btn-color: #fff;
   --btn-text-color: #222;
-  --project-card-bg: #fff;
+  --project-card-bg: #2e2e2e;
   --text-color: #fff;
   --form-text-color: #fff;
   --footer-text-color: #bbb;
@@ -69,7 +69,7 @@ p {
 }
 
 .sectionTitle {
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 
 .hover {
