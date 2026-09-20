@@ -31,6 +31,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 60px;
+  padding: 0 24px;
+  box-sizing: border-box;
 }
 
 h1,
