@@ -10,22 +10,16 @@ import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
 import instagramLight from '../../assets/instagram-light.svg';
 import instagramDark from '../../assets/instagram-dark.svg';
-//import CV from '../../assets/cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
+import { useThemedAsset } from '../../common/useThemedAsset';
 
 function Hero() {
-  const { theme, toggleTheme } = useTheme();
-
-  const scrollToAbout = () => {
-    const element = document.getElementById('about');
-    element.scrollIntoView({behavior: 'smooth'});
-  }
-
-  const themeIcon = theme === 'light' ? sun : moon;
-  const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
-  const githubIcon = theme === 'light' ? githubLight : githubDark;
-  const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
-  const instagramIcon = theme === 'light' ? instagramLight : instagramDark;
+  const { toggleTheme } = useTheme();
+  const themeIcon = useThemedAsset(sun, moon);
+  const twitterIcon = useThemedAsset(twitterLight, twitterDark);
+  const githubIcon = useThemedAsset(githubLight, githubDark);
+  const linkedinIcon = useThemedAsset(linkedinLight, linkedinDark);
+  const instagramIcon = useThemedAsset(instagramLight, instagramDark);
 
   return (
     <section id="hero" className={styles.container}>
@@ -66,16 +60,9 @@ function Hero() {
         <p className={styles.description}>
         Apasionado por la innovación, combino estrategia y creatividad para impulsar proyectos transformadores.
         </p>
-        <a onClick={scrollToAbout}>
-          <button className="hover">Conóceme</button>
+        <a href="#about" className="hover btn">
+          Conóceme
         </a>
-        {
-          /**
-           * <a href={CV} download>
-              <button className="hover">Conóceme</button>
-            </a>
-           */
-        }
       </div>
     </section>
   );

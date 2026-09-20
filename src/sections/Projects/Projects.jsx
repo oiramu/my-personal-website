@@ -4,7 +4,7 @@ import konfiiImg from '../../assets/projects/konfii.webp';
 import cheetahImg from '../../assets/projects/cheetah.webp';
 import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
-import { useTheme } from '../../common/ThemeContext';
+import { useThemedAsset } from '../../common/useThemedAsset';
 
 const statusColors = {
   Vivo: '#28C840',
@@ -86,8 +86,7 @@ function ProjectCard({ project, githubIcon }) {
 }
 
 function Projects() {
-  const { theme } = useTheme();
-  const githubIcon = theme === 'light' ? githubLight : githubDark;
+  const githubIcon = useThemedAsset(githubLight, githubDark);
 
   return (
     <section id="projects" className={styles.container}>
