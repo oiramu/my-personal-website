@@ -1,10 +1,28 @@
 import styles from './ContactStyles.module.css';
 
+// PLACEHOLDER: reemplaza con tu correo real
+const CONTACT_EMAIL = 'tu-correo@ejemplo.com';
+
 function Contact() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const name = form.name.value.trim();
+    const email = form.email.value.trim();
+    const message = form.message.value.trim();
+
+    const subject = `Mensaje de ${name} desde oiramu.com`;
+    const body = `${message}\n\n—\n${name}\n${email}`;
+
+    window.location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(body)}`;
+  };
+
   return (
     <section id="contact" className={styles.container}>
       <h1 className="sectionTitle">Contacto</h1>
-      <form action="">
+      <form onSubmit={handleSubmit}>
         <div className="formGroup">
           <label htmlFor="name" hidden>
             Nombre
@@ -22,7 +40,7 @@ function Contact() {
             Email
           </label>
           <input
-            type="text"
+            type="email"
             name="email"
             id="email"
             placeholder="Email"
