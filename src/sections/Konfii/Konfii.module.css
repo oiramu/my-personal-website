@@ -1,0 +1,41 @@
+/* Espejo de About Me: aquí el texto va a la izquierda y la imagen a la derecha. */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+
+.logo {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  align-self: center;
+}
+
+.description {
+  max-width: 37ch;
+}
+
+@media (width >= 800px) {
+  .container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+  }
+
+  .logo {
+    max-width: 360px;
+  }
+
+  .description {
+    max-width: 49ch;
+  }
+}
+
+@media (width >= 1400px) {
+  .logo {
+    max-width: 400px;
+  }
+}

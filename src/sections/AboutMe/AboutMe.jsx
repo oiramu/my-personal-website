@@ -19,18 +19,17 @@ function AboutMe() {
           <br /><br />
           A los 15 años desarrollé Cheetah Engine, un "Doom-Clone" en Java con OpenGL,
           lo cual llamó la atención de mis compañeros, luego amigos y socios: Daniel,
-          Ever, Brayan y Brian. Con quienes años más tarde creamos Konfii, una
-          plataforma que, a través de la tecnología, empoderó el talento y conectó
-          necesidades en Barranquilla.
+          Ever, Brayan y Brian. Con ellos fundamos <b>Konfii</b>, un marketplace de
+          talento local en Barranquilla; más abajo te cuento qué fue de él.
           <br /><br />
-          En 2023, nuestro trabajo fue reconocido por <b>Nuestra Barranquilla</b> y <b>MacondoLab</b>,
-          quienes nos premiaron como agentes de cambio por nuestro impacto positivo en la comunidad.
-          Konfii ya cerró, pero fue la escuela donde aprendí a sostener producto, capital
-          y ejecución técnica al mismo tiempo.
+          Hoy sigo construyendo de punta a punta — producto, frontend, backend e
+          infraestructura:
           <br /><br />
-          Hoy sigo construyendo: <b>Gasolinapp</b> es mi proyecto más reciente, una app
-          para consultar y reportar precios de gasolina en Colombia, de punta a punta —
-          frontend, backend e infraestructura.
+          <b>Atelier</b>: un armario con IA, en beta privada, que arma outfits con tu
+          propia ropa según tu estilo, la ocasión y el clima.
+          <br /><br />
+          <b>Gasolinapp</b>: un mapa colaborativo donde la gente reporta y verifica en
+          tiempo real los precios de Corriente, Extra y Diésel en Colombia.
         </p>
       </div>
       <div className={styles.colorModeContainer}>
