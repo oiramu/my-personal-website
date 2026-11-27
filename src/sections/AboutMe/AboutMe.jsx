@@ -20,14 +20,8 @@ function AboutMe() {
           Ever, Brayan y Brian. Con ellos fundamos <b>Konfii</b>, un marketplace de
           talento local en Barranquilla; más abajo te cuento qué fue de él.
           <br /><br />
-          Hoy sigo construyendo de punta a punta — producto, frontend, backend e
-          infraestructura:
-          <br /><br />
-          <b>Atelier</b>: un armario con IA, en beta privada, que arma outfits con tu
-          propia ropa según tu estilo, la ocasión y el clima.
-          <br /><br />
-          <b>Gasolinapp</b>: un mapa colaborativo donde la gente reporta y verifica en
-          tiempo real los precios de Corriente, Extra y Diésel en Colombia.
+          Hoy sigo construyendo de punta a punta: producto, frontend, backend e
+          infraestructura.
         </p>
       </div>
       <div className={styles.colorModeContainer}>
