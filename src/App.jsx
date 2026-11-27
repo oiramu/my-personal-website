@@ -11,8 +11,8 @@ function App() {
     <>
       <Hero />
       <AboutMe />
-      <Konfii />
       <Projects />
+      <Konfii />
       <Contact />
       <Footer />
     </>
