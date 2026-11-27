@@ -39,7 +39,8 @@
   .container {
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    gap: 48px;
 
     .hero {
       max-width: 480px;

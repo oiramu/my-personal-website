@@ -94,13 +94,12 @@ a.card:hover {
 @media (width >= 800px) {
   .grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    max-width: 760px;
+    max-width: none;
   }
 }
 
 @media (width >= 1200px) {
   .grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    max-width: 1400px;
   }
 }

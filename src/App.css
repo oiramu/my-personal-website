@@ -37,10 +37,13 @@ body {
   margin: 0 auto 60px;
 }
 
+/* Un solo ancho de contenido para todas las secciones: sus bordes quedan alineados. */
 #root {
   display: flex;
   flex-direction: column;
   gap: 60px;
+  width: 100%;
+  max-width: 1248px;
   padding: 0 24px;
   box-sizing: border-box;
 }
