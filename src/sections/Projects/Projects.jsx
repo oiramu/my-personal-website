@@ -1,4 +1,5 @@
 import styles from './Projects.module.css';
+import atelierImg from '../../assets/projects/atelier.webp';
 import gasolinappImg from '../../assets/projects/gasolinapp.webp';
 import konfiiImg from '../../assets/projects/konfii.webp';
 import cheetahImg from '../../assets/projects/cheetah.webp';
@@ -7,12 +8,22 @@ import githubDark from '../../assets/github-dark.svg';
 import { useThemedAsset } from '../../common/useThemedAsset';
 
 const statusColors = {
+  Beta: '#0A84FF',
   Vivo: '#28C840',
   Cerrado: '#FF5F57',
   Archivado: '#FEBC2E',
 };
 
 const projects = [
+  {
+    name: 'Atelier',
+    status: 'Beta',
+    href: 'https://atelier.oiramu.com',
+    image: atelierImg,
+    alt: 'Pantallas de Atelier: el inicio y los ajustes con los temas Manglar, Caribe y Salitre',
+    description:
+      'Tu armario con IA: outfits con tu propia ropa, según tu estilo, la ocasión y el clima.',
+  },
   {
     name: 'Gasolinapp',
     status: 'Vivo',
