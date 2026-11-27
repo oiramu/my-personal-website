@@ -5,7 +5,7 @@ function Konfii() {
   return (
     <section id="konfii" className={styles.container}>
       <div className={styles.info}>
-        <h1>Qué fue de Konfii</h1>
+        <h1 className="sectionTitle">Qué fue de Konfii</h1>
         <p className={styles.description}>
           Con Daniel, Ever, Brayan y Brian construimos <b>Konfii</b>, un marketplace
           para contratar talento local verificado en Barranquilla.

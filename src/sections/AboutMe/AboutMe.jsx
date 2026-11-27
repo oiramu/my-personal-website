@@ -6,9 +6,7 @@ function AboutMe() {
   return (
     <section id="about" className={styles.container}>
       <div className={styles.info}>
-        <h1>
-          Quién soy
-        </h1>
+        <h1 className="sectionTitle">Quién soy</h1>
         <p className={styles.description}>
           Nací en Barranquilla y soy egresado de la Universidad Simón Bolívar.
           <br /><br />

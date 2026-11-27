@@ -6,9 +6,7 @@
 }
 
 .subtitle {
-  margin-top: -12px;
-  margin-bottom: 36px;
-  color: var(--footer-text-color);
+  margin-bottom: 32px;
 }
 
 .grid {
